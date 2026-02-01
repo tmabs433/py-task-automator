@@ -35,6 +35,8 @@ git clone https://github.com/tmabs433/py-task-automator.git
 cd py-task-automator
 pip install -r requirements.txt
 
+For development: pip install -r requirements-dev.txt
+
 
 Python 3.10+ is recommended.
 
