@@ -4,11 +4,13 @@ A lightweight Python toolkit for automating common backend and operational tasks
 
 py-task-automator is designed to be simple, extensible, and easy to integrate into existing Python projects where repetitive tasks need to be handled reliably.
 
+
 Why this project exists
 
 Many backend and operational workflows involve repetitive tasks that are often re-implemented across projects — file handling, batch processing, API calls, logging, and basic validations.
 
 This project provides a clean and reusable foundation for those tasks, allowing developers to focus on business logic instead of boilerplate automation code.
+
 
 Features
 
@@ -24,6 +26,7 @@ Simple task orchestration helpers
 
 Extensible design for custom automation needs
 
+
 Installation
 
 Clone the repository and install dependencies:
@@ -34,6 +37,7 @@ pip install -r requirements.txt
 
 
 Python 3.10+ is recommended.
+
 
 Basic usage
 
@@ -67,6 +71,7 @@ py-task-automator/
 
 The project is structured to keep automation logic modular and easy to extend.
 
+
 Design principles
 
 Clarity over cleverness – readable code is preferred over complex abstractions
@@ -76,6 +81,7 @@ Practical automation – focused on real operational use cases
 Minimal dependencies – only what is necessary
 
 Extensibility – easy to add new task types
+
 
 Use cases
 
@@ -89,6 +95,7 @@ Simple workflow orchestration for internal tools
 
 Supporting DevOps and data operations tasks
 
+
 Testing
 
 Tests are written using pytest.
@@ -96,6 +103,7 @@ Tests are written using pytest.
 To run tests:
 
 pytest
+
 
 Contributing
 
@@ -113,6 +121,7 @@ Submit a pull request with a clear description
 
 Please keep changes focused and well documented.
 
+
 Roadmap
 
 Planned improvements include:
@@ -125,9 +134,11 @@ Improved logging and metrics
 
 Additional built-in task types
 
+
 License
 
 This project is licensed under the MIT License.
+
 
 Author
 
