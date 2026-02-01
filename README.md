@@ -59,6 +59,31 @@ This will remove files older than the specified number of days and log the outco
 
 More examples can be found in the examples/ directory.
 
+
+## Usage example
+
+The example below demonstrates how to automatically clean up files
+older than a specified number of days from a directory.
+
+```python
+from automator.tasks.file_cleaner import FileCleaner
+
+cleaner = FileCleaner(
+    target_directory="logs",
+    max_age_days=7
+)
+
+removed_files = cleaner.run()
+print(f"{removed_files} files removed.")
+
+## Sample output
+
+2026-02-01 14:32:10 - FileCleaner - INFO - Removed file: app.log
+2026-02-01 14:32:10 - FileCleaner - INFO - Removed file: worker.log
+2026-02-01 14:32:10 - FileCleaner - INFO - Cleanup completed. 2 files removed.
+
+
+
 Project structure
 py-task-automator/
  ├── automator/
